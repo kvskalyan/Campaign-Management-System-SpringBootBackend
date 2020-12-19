@@ -1,0 +1,32 @@
+{
+	"responseId": 1,
+	"responseTime": 123456789012,
+	"answers": [
+		{
+			"actualResponseType": "text",
+			"response": "Answer 1"
+		},
+		{
+			"actualResponseType": "textarea",
+			"response": "Answer 2"
+		},
+		{
+			"actualResponseType": "dropdown",
+			"response": "3"
+		},
+		{
+			"actualResponseType": "checkbox",
+			"response": "false"
+		},
+		{
+			"actualResponseType": "text",
+			"response": "Answer 5"
+		},
+		{
+			"actualResponseType": "text",
+			"response": "Answer 6"
+		}
+	],
+	"surveyId": 1,
+	"userId": 2
+}

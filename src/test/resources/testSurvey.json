@@ -1,0 +1,42 @@
+{
+	"surveyId":1,
+	"surveyName": "Test Survey",
+	"surveyDescription": "Test Survey Description",
+	"surveyStartDateTime": 1234567890122,
+	"surveyEndDateTime": 1601078400000,
+	"numberOfResponses": 1,
+	"surveyStatus": "ACTIVE",
+	"numberOfQuestions": 6,
+	"questions": [
+		{
+			"question": "Sample Question 1",
+			"expectedResponseType": "text"
+		},
+		{
+			"question": "Sample Question 2",
+			"expectedResponseType": "textarea"
+		},
+		{
+			"question": "Sample Question 3",
+			"expectedResponseType": "dropdown",
+			"options": [
+				"1",
+				"2",
+				"3",
+				"4"
+			]
+		},
+		{
+			"question": "Sample Question 4",
+			"expectedResponseType": "checkbox"
+		},
+		{
+			"question": "Sample Question 5",
+			"expectedResponseType": "text"
+		},
+		{
+			"question": "Sample Question 6",
+			"expectedResponseType": "text"
+		}
+	]
+}
